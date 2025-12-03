@@ -122,7 +122,7 @@ def setup_config(translator=None):
                 'storage_path': os.path.join(appdata, "Cursor", "User", "globalStorage", "storage.json"),
                 'sqlite_path': os.path.join(appdata, "Cursor", "User", "globalStorage", "state.vscdb"),
                 'machine_id_path': os.path.join(appdata, "Cursor", "machineId"),
-                'cursor_path': os.path.join(localappdata, "Programs", "Cursor", "resources", "app"),
+                'cursor_path': r"D:\Program Files\cursor\resources\app",
                 'updater_path': os.path.join(localappdata, "cursor-updater"),
                 'update_yml_path': os.path.join(localappdata, "Programs", "Cursor", "resources", "app-update.yml"),
                 'product_json_path': os.path.join(localappdata, "Programs", "Cursor", "resources", "app", "product.json")
